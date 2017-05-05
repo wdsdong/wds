@@ -22,6 +22,7 @@
 		3E45B0331EBC59AF0056170F /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B02C1EBC59AF0056170F /* NSObject+KVO.m */; };
 		3E45B0341EBC59AF0056170F /* runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B02E1EBC59AF0056170F /* runtime.m */; };
 		3E45B0361EBC5A840056170F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0351EBC5A840056170F /* README.md */; };
+		3E45B0391EBC63600056170F /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0371EBC63600056170F /* NSString+RegexCategory.m */; };
 		4B759B832CB0E8F50A30E89F /* libPods-exercise-wdsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D22D7AA0A968C064AE1C18B /* libPods-exercise-wdsTests.a */; };
 		53EE48BC4FA97F53E0AD9FA6 /* libPods-exercise-wds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5A12F54F7A93737EABAB2F /* libPods-exercise-wds.a */; };
 		8D5C1CB9EFCA88C268503BB4 /* libPods-exercise-wdsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A48434B647B36E6C3A481562 /* libPods-exercise-wdsUITests.a */; };
@@ -79,6 +80,8 @@
 		3E45B02D1EBC59AF0056170F /* runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runtime.h; sourceTree = "<group>"; };
 		3E45B02E1EBC59AF0056170F /* runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runtime.m; sourceTree = "<group>"; };
 		3E45B0351EBC5A840056170F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E45B0371EBC63600056170F /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
+		3E45B0381EBC63600056170F /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
 		7D22D7AA0A968C064AE1C18B /* libPods-exercise-wdsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise-wdsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48434B647B36E6C3A481562 /* libPods-exercise-wdsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise-wdsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA49437618D142373408B3FB /* Pods-exercise-wds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise-wds.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise-wds/Pods-exercise-wds.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 		3E21CEAD1E49D39500A5824A /* exercise-wds */ = {
 			isa = PBXGroup;
 			children = (
+				3E45B0371EBC63600056170F /* NSString+RegexCategory.m */,
+				3E45B0381EBC63600056170F /* NSString+RegexCategory.h */,
 				3E45B0211EBC59AF0056170F /* Single */,
 				3E45B0281EBC59AF0056170F /* Runtime */,
 				3E21CEB41E49D39500A5824A /* ViewController.h */,
@@ -517,6 +522,7 @@
 				3E45B0311EBC59AF0056170F /* NonArcSingletonUsingGcd.m in Sources */,
 				3E21CEB61E49D39500A5824A /* ViewController.m in Sources */,
 				3E45B0361EBC5A840056170F /* README.md in Sources */,
+				3E45B0391EBC63600056170F /* NSString+RegexCategory.m in Sources */,
 				3E21CEB31E49D39500A5824A /* AppDelegate.m in Sources */,
 				3E45B0341EBC59AF0056170F /* runtime.m in Sources */,
 				3E45B0301EBC59AF0056170F /* NonArcSingleton.m in Sources */,
