@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,14 +39,14 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YTKNetwork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0EE4C9B7A93E30D35C0E394E4EA638C4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>10DE5C13A901C098EE687B0B4CFB34FA</key>
 		<dict>
 			<key>primary</key>
@@ -52,12 +57,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1BE7DA2114A68CCE72C1F8BCC56162D8</key>
+		<key>818FCD08B4CCA01442337687DFE2A029</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A550AFD826C07C268780530E4DBC303F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C651BA9B408E87903BFBF6C958877167</key>
 		<dict>
 			<key>primary</key>
 			<true/>

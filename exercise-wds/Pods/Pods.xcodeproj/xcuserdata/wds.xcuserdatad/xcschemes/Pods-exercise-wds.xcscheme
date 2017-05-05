@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1BE7DA2114A68CCE72C1F8BCC56162D8'
+               BlueprintIdentifier = 'A550AFD826C07C268780530E4DBC303F'
                BlueprintName = 'Pods-exercise-wds'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-exercise-wds.a'>
