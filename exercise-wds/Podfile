@@ -1,0 +1,22 @@
+//# Uncomment the next line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'exercise-wds' do
+  // # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  // # use_frameworks!
+
+  // # Pods for exercise-wds
+	pod 'GYDataCenter', '~> 0.1.1'
+  pod 'SDWebImage', '~> 4.0.0-beta2'
+  
+  target 'exercise-wdsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'exercise-wdsUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
