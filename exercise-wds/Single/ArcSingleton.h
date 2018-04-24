@@ -5,13 +5,13 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ArcSingleton : NSObject
+@interface ArcSingleton : NSObject<NSCopying,NSMutableCopying>
 
 @property(nonatomic, retain) NSString *someProperty;
 
 + (id)sharedInstance;
 
-- (instancetype)init __attribute__((unavailable("Cannot use init for this class, use +(ArcSingleton*)sharedInstance instead!")));
+//- (instancetype)init __attribute__((unavailable("Cannot use init for this class, use +(ArcSingleton*)sharedInstance instead!")));
 // NOTE: __attribute__ unavailable can NOT lead compile error of dynamic invocation @selector(performSelector:) of Class
 
 @end

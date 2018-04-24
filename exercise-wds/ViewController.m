@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <objc/runtime.h>
 #import "Model.h"
-
+#import "ArcSingleton.h"
 @interface ViewController ()
 
 /** model*/

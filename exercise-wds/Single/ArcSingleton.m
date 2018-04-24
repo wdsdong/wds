@@ -14,7 +14,7 @@
     static ArcSingleton *sharedMyInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedMyInstance = [[self alloc] init];
+        sharedMyInstance = [[super allocWithZone:NULL] init];
     });
     return sharedMyInstance;
 }
@@ -24,6 +24,18 @@
         someProperty = @"Default Property Value";
     }
     return self;
+}
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    return  [ArcSingleton sharedInstance];
+}
+
+- (id)copyWithZone:(NSZone *)zone {
+    return [ArcSingleton sharedInstance];
+}
+
+- (id)mutableCopyWithZone:(NSZone *)zone {
+    return [ArcSingleton sharedInstance];
 }
 
 - (void)dealloc {
