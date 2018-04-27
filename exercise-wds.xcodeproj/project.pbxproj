@@ -15,6 +15,10 @@
 		3E21CEBE1E49D39500A5824A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E21CEBC1E49D39500A5824A /* LaunchScreen.storyboard */; };
 		3E21CEC91E49D39500A5824A /* exercise_wdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E21CEC81E49D39500A5824A /* exercise_wdsTests.m */; };
 		3E21CED41E49D39500A5824A /* exercise_wdsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E21CED31E49D39500A5824A /* exercise_wdsUITests.m */; };
+		3E3CF04A20905DD2002D503F /* WeakSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CF04920905DD2002D503F /* WeakSingleton.m */; };
+		3E4467E620930C02003C014B /* DSAirSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4467E520930C02003C014B /* DSAirSandbox.m */; };
+		3E4467EC20930DD8003C014B /* NSObject+WeakAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4467E920930DD8003C014B /* NSObject+WeakAssociatedObject.m */; };
+		3E4467ED20930DD8003C014B /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4467EB20930DD8003C014B /* NSString+RegexCategory.m */; };
 		3E45B02F1EBC59AF0056170F /* ArcSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0231EBC59AF0056170F /* ArcSingleton.m */; };
 		3E45B0301EBC59AF0056170F /* NonArcSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0251EBC59AF0056170F /* NonArcSingleton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E45B0311EBC59AF0056170F /* NonArcSingletonUsingGcd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0271EBC59AF0056170F /* NonArcSingletonUsingGcd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -22,7 +26,6 @@
 		3E45B0331EBC59AF0056170F /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B02C1EBC59AF0056170F /* NSObject+KVO.m */; };
 		3E45B0341EBC59AF0056170F /* runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B02E1EBC59AF0056170F /* runtime.m */; };
 		3E45B0361EBC5A840056170F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0351EBC5A840056170F /* README.md */; };
-		3E45B0391EBC63600056170F /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E45B0371EBC63600056170F /* NSString+RegexCategory.m */; };
 		4B759B832CB0E8F50A30E89F /* libPods-exercise-wdsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D22D7AA0A968C064AE1C18B /* libPods-exercise-wdsTests.a */; };
 		53EE48BC4FA97F53E0AD9FA6 /* libPods-exercise-wds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5A12F54F7A93737EABAB2F /* libPods-exercise-wds.a */; };
 		8D5C1CB9EFCA88C268503BB4 /* libPods-exercise-wdsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A48434B647B36E6C3A481562 /* libPods-exercise-wdsUITests.a */; };
@@ -67,6 +70,14 @@
 		3E21CECF1E49D39500A5824A /* exercise-wdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "exercise-wdsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E21CED31E49D39500A5824A /* exercise_wdsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exercise_wdsUITests.m; sourceTree = "<group>"; };
 		3E21CED51E49D39500A5824A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3CF04820905DD2002D503F /* WeakSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeakSingleton.h; sourceTree = "<group>"; };
+		3E3CF04920905DD2002D503F /* WeakSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakSingleton.m; sourceTree = "<group>"; };
+		3E4467E420930C02003C014B /* DSAirSandbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAirSandbox.h; sourceTree = "<group>"; };
+		3E4467E520930C02003C014B /* DSAirSandbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAirSandbox.m; sourceTree = "<group>"; };
+		3E4467E820930DD8003C014B /* NSObject+WeakAssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WeakAssociatedObject.h"; sourceTree = "<group>"; };
+		3E4467E920930DD8003C014B /* NSObject+WeakAssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WeakAssociatedObject.m"; sourceTree = "<group>"; };
+		3E4467EA20930DD8003C014B /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		3E4467EB20930DD8003C014B /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
 		3E45B0221EBC59AF0056170F /* ArcSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcSingleton.h; sourceTree = "<group>"; };
 		3E45B0231EBC59AF0056170F /* ArcSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcSingleton.m; sourceTree = "<group>"; };
 		3E45B0241EBC59AF0056170F /* NonArcSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonArcSingleton.h; sourceTree = "<group>"; };
@@ -80,8 +91,6 @@
 		3E45B02D1EBC59AF0056170F /* runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runtime.h; sourceTree = "<group>"; };
 		3E45B02E1EBC59AF0056170F /* runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runtime.m; sourceTree = "<group>"; };
 		3E45B0351EBC5A840056170F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3E45B0371EBC63600056170F /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
-		3E45B0381EBC63600056170F /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
 		7D22D7AA0A968C064AE1C18B /* libPods-exercise-wdsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise-wdsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48434B647B36E6C3A481562 /* libPods-exercise-wdsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise-wdsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA49437618D142373408B3FB /* Pods-exercise-wds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise-wds.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise-wds/Pods-exercise-wds.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,12 +161,10 @@
 		3E21CEAD1E49D39500A5824A /* exercise-wds */ = {
 			isa = PBXGroup;
 			children = (
-				3E45B0371EBC63600056170F /* NSString+RegexCategory.m */,
-				3E45B0381EBC63600056170F /* NSString+RegexCategory.h */,
+				3E4467E720930DD8003C014B /* Categories */,
+				3E4467E320930BDF003C014B /* AirSandbox */,
 				3E45B0211EBC59AF0056170F /* Single */,
 				3E45B0281EBC59AF0056170F /* Runtime */,
-				3E21CEB41E49D39500A5824A /* ViewController.h */,
-				3E21CEB51E49D39500A5824A /* ViewController.m */,
 				3E21CEAE1E49D39500A5824A /* Supporting Files */,
 			);
 			path = "exercise-wds";
@@ -168,6 +175,8 @@
 			children = (
 				3E21CEB11E49D39500A5824A /* AppDelegate.h */,
 				3E21CEB21E49D39500A5824A /* AppDelegate.m */,
+				3E21CEB41E49D39500A5824A /* ViewController.h */,
+				3E21CEB51E49D39500A5824A /* ViewController.m */,
 				3E1A4F3C1E4AAA85001B4DDA /* WDSDelegate.h */,
 				3E21CEB71E49D39500A5824A /* Main.storyboard */,
 				3E21CEBA1E49D39500A5824A /* Assets.xcassets */,
@@ -196,10 +205,32 @@
 			path = "exercise-wdsUITests";
 			sourceTree = "<group>";
 		};
+		3E4467E320930BDF003C014B /* AirSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				3E4467E420930C02003C014B /* DSAirSandbox.h */,
+				3E4467E520930C02003C014B /* DSAirSandbox.m */,
+			);
+			path = AirSandbox;
+			sourceTree = "<group>";
+		};
+		3E4467E720930DD8003C014B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3E4467E820930DD8003C014B /* NSObject+WeakAssociatedObject.h */,
+				3E4467E920930DD8003C014B /* NSObject+WeakAssociatedObject.m */,
+				3E4467EA20930DD8003C014B /* NSString+RegexCategory.h */,
+				3E4467EB20930DD8003C014B /* NSString+RegexCategory.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		3E45B0211EBC59AF0056170F /* Single */ = {
 			isa = PBXGroup;
 			children = (
 				3E45B0351EBC5A840056170F /* README.md */,
+				3E3CF04820905DD2002D503F /* WeakSingleton.h */,
+				3E3CF04920905DD2002D503F /* WeakSingleton.m */,
 				3E45B0221EBC59AF0056170F /* ArcSingleton.h */,
 				3E45B0231EBC59AF0056170F /* ArcSingleton.m */,
 				3E45B0241EBC59AF0056170F /* NonArcSingleton.h */,
@@ -522,13 +553,16 @@
 				3E45B0311EBC59AF0056170F /* NonArcSingletonUsingGcd.m in Sources */,
 				3E21CEB61E49D39500A5824A /* ViewController.m in Sources */,
 				3E45B0361EBC5A840056170F /* README.md in Sources */,
-				3E45B0391EBC63600056170F /* NSString+RegexCategory.m in Sources */,
 				3E21CEB31E49D39500A5824A /* AppDelegate.m in Sources */,
+				3E4467E620930C02003C014B /* DSAirSandbox.m in Sources */,
+				3E3CF04A20905DD2002D503F /* WeakSingleton.m in Sources */,
 				3E45B0341EBC59AF0056170F /* runtime.m in Sources */,
 				3E45B0301EBC59AF0056170F /* NonArcSingleton.m in Sources */,
 				3E45B0331EBC59AF0056170F /* NSObject+KVO.m in Sources */,
+				3E4467ED20930DD8003C014B /* NSString+RegexCategory.m in Sources */,
 				3E45B0321EBC59AF0056170F /* Model.m in Sources */,
 				3E45B02F1EBC59AF0056170F /* ArcSingleton.m in Sources */,
+				3E4467EC20930DD8003C014B /* NSObject+WeakAssociatedObject.m in Sources */,
 				3E21CEB01E49D39500A5824A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

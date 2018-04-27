@@ -125,7 +125,7 @@ return self;\
     //    method_exchangeImplementations(<#Method m1#>, <#Method m2#>)
     
     //    设置关联对象
-    //    objc_setAssociatedObject(<#id object#>, <#const void *key#>, <#id value#>, <#objc_AssociationPolicy policy#>)
+//        objc_setAssociatedObject(<#id object#>, <#const void *key#>, <#id value#>, <#objc_AssociationPolicy policy#>)
     //    获取关联对象
     //    objc_getAssociatedObject(<#id object#>, <#const void *key#>)
     //    移除关联对象
